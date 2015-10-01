@@ -30,7 +30,7 @@ Image styling
 ***********************************************/
 
 img {
-	border-radius: 90;
+	border-radius: 90%;
 	max-width: 340px;
 }
 
@@ -49,7 +49,7 @@ h2 {
 	font-size: 1em;
 	line-height: 1em;
 	font-style: oblique;
-	color: #aaa;
+	color: #ccc;
 
 }
 
@@ -62,5 +62,5 @@ h3 {
 h4 {
 	margin-top: 60px;
 	font-weight: 500;
-  color: #564581;
+  color: #456789;
 }
