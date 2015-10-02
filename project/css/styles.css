@@ -4,7 +4,7 @@ Top bar color
 
 html {
 	background-color: aquamarine;
-    border-top: 20px solid #9C98C8;
+    border-top: 35px solid #9C98C8;
 }
 
 
@@ -17,7 +17,8 @@ body {
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px 20px;
-	font-size: 1.3em;
+	border: 15px solid #586790
+    font-size: 1.3em;
 	line-height: 1.6em;
   font-family: 'Open Sans', sans-serif;
 	color: #555;
