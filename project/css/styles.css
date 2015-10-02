@@ -3,7 +3,8 @@ Top bar color
 ***********************************************/
 
 html {
-	border-top: 20px solid #9C98C8;
+	background-color: aquamarine;
+    border-top: 20px solid #9C98C8;
 }
 
 
