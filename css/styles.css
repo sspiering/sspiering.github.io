@@ -1,20 +1,27 @@
 /*GLOBAL*/
 img {
-  width:30%;
+  width:45%;
   opacity: .5;
+  float: right;
+  border-radius: 100%;
 }
 
 body {
   background: url(../img/skulls.png);
 }
 
+h1 {
+  text-align: center;
+}
 
 /*NAVIGATION*/
 a {
   display: inline-block;
   background: white;
-  width: 100px;
-  height: 30px;
+  width: 60px;
+  height: 23px;
+  padding: 10px;
+  margin: 5px;
 }
 
 li {
@@ -25,15 +32,15 @@ li {
 
 /*LAYOUT*/
 
-
+img {
+  border: 100px;
+}
 
 
 /*TYPOGRAPHY*/
 h1 {
   color: rgba(0,0,0,.5);
-    color: coral;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+  letter-spacing: 4px;
 }
 
 
