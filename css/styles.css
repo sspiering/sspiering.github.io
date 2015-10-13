@@ -1,12 +1,46 @@
-h1 {
-  color: rgba(0,0,0,.5);
-}
-
+/*GLOBAL*/
 img {
-  width:50%;
+  width:30%;
   opacity: .5;
 }
 
 body {
   background: url(../img/skulls.png);
 }
+
+
+/*NAVIGATION*/
+a {
+  display: inline-block;
+  background: white;
+  width: 100px;
+  height: 30px;
+}
+
+li {
+  display: inline-block;
+}
+
+
+
+/*LAYOUT*/
+
+
+
+
+/*TYPOGRAPHY*/
+h1 {
+  color: rgba(0,0,0,.5);
+    color: coral;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+p {
+  width: 200px;
+  background: yellow;
+  padding: 20px;
+  border: 10px double black;
+  margin: 0;
+  }
