@@ -7,11 +7,13 @@ img {
 }
 
 body {
-  background: url(../img/skulls.png);
+  background: url(../img/handmadepaper.png);
 }
 
 h1 {
-  text-align: center;
+  float: left;
+  display: inline-block;
+  margin: auto;
 }
 
 /*NAVIGATION*/
@@ -35,6 +37,14 @@ li {
 img {
   border: 100px;
 }
+
+.grid-container {
+  text-align: center;
+  display: inline-block;
+  margin: 50px 20px;
+  padding:  50px 20px;
+}
+
 
 
 /*TYPOGRAPHY*/
