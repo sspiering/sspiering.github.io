@@ -1,0 +1,60 @@
+/*GLOBAL*/
+img {
+  width:45%;
+  opacity: .5;
+  float: right;
+  border-radius: 100%;
+}
+
+body {
+  background: url(../img/handmadepaper.png);
+}
+
+h1 {
+  float: left;
+  display: inline-block;
+  margin: auto;
+}
+
+/*NAVIGATION*/
+a {
+  display: inline-block;
+  background: white;
+  width: 60px;
+  height: 23px;
+  padding: 10px;
+  margin: 5px;
+}
+
+li {
+  display: inline-block;
+}
+
+
+
+/*LAYOUT*/
+
+img {
+  border: 100px;
+}
+
+.grid-container {
+  text-align: center;
+  display: inline-block;
+  margin: 50px 20px;
+  padding:  50px 20px;
+}
+
+
+
+/*TYPOGRAPHY*/
+h1 {
+  color: rgba(0,0,0,.5);
+  letter-spacing: 4px;
+}
+
+
+p {
+  padding: 20px;
+  margin: 0;
+  }
