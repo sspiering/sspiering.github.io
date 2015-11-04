@@ -1,7 +1,6 @@
 /*GLOBAL*/
 img {
-  width:45%;
-  opacity: .5;
+  width:60%;
   float: right;
   border-radius: 100%;
 }
@@ -18,8 +17,8 @@ h1 {
 
 /*NAVIGATION*/
 a {
-  display: inline-block;
-  background: white;
+  display: inline-block center;
+
   width: 60px;
   height: 23px;
   padding: 10px;
