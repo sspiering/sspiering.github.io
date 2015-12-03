@@ -1,7 +1,7 @@
 /*STYLING ASSEST
 Color Scheme:
   White
-  Yellow - #
+  Yellow - #ffea01
   Black
 
 Fonts
@@ -10,22 +10,24 @@ Fonts
 */
 
 /*Sticky Header*/
-#full-header {
+nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  margin-bottom: 50px;
+  font-family: 'Tinos', serif;
+  max-width: 170px;
+  padding-right: 3%; 
+  margin-right: 2%;
 }
 
 #body-copy {
   position: relative;
   z-index: -1;
-  margin-top: 250px;
+  margin-top: 5%;
   margin-right: 20%;
   margin-bottom: 5%;
   margin-left: 10%;
 
-  
 }
 
 /*GLOBAL STYLING*/
@@ -33,14 +35,22 @@ Fonts
 h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3em;
-  margin-top: 65px;
+  padding-top: 65px;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 30%;
+  margin-right: 30%;
 }
 
 h2 {
   font-family: 'Tinos', serif;
   font-size: 1.5em;
   font-weight: 400;
-  margin-top: -30px;
+  margin: auto;
+  padding-left: 5%;
+  margin-right: 30%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 h3 {
@@ -50,15 +60,6 @@ h3 {
 p,
 ul {
   font-family: 'Tinos', serif;
-}
-
-nav {
-  font-family: 'Tinos', serif;
-  max-width: 170px;
-  margin-top: -110px;
-  padding-right: %; 
-  margin-right: 2%;
-  text-align: center;
 }
 
 li, a {
@@ -74,11 +75,6 @@ a:visited {
 a:hover {
   color: grey;
   font-weight: 700;
-}
-
-a:active {
-  color: white;
-  font-weight: 400;
 }
 
 img {
@@ -98,14 +94,15 @@ footer {
 
 /*STYLING*/
 
-div {
-  background: yellow;
-  height: 240px;
+#full-header {
+  background: #ffea01;
+  height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 .head {
-  padding-left: 4%; 
+  padding-left: 6%; 
   margin-left: 10%;
 }
 
@@ -116,12 +113,25 @@ div {
   border: 0;
 }
 
+.nav-logo {
+  max-height: 40px;
+  max-width: 40px;
+  margin: 20%;
+  -webkit-filter: grayscale(100%);
+}
+
 .home-pic {
-  height: 180px;
-  width: 180px;
-  float: right;
-  margin-top: -165px;
-  margin-right: 270px;
+  max-height: 35%;
+  max-width: 35%;
+  margin: auto;
+}
+
+.welcome {
+  display: block;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-bottom: 20%;
+  padding: auto;
 }
 
 footer {
@@ -133,21 +143,11 @@ footer {
 }
 
 
-/*GRID CONTAINER LAYOUT*/
-.head {
-  margin: ; /*  */
-  padding: ;  /*  */
-  width: ;  /*  */
+/*GALLERY*/
+.gallery {
+  height: 600px;
 }
 
-.nav {
-  margin: ; /*  */
-  padding: ;  /*  */
-  width: ;  /*  */
-}
-
-.home-pic {
-  margin: ; /*  */
-  padding: ;  /*  */
-  width: ;  /*  */
+.gallery .item {
+  background: none;
 }
