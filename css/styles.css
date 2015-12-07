@@ -78,9 +78,11 @@ a:hover {
   font-weight: 700;
 }
 
+/*
 img {
   border-radius: 100%;
 }
+*/
 
 footer {
   color: white;
@@ -122,6 +124,7 @@ footer {
 }
 
 .home-pic {
+  border-radius: 100%;
   max-height: 35%;
   max-width: 35%;
   margin: auto;
@@ -144,11 +147,36 @@ footer {
 }
 
 
+/*CONTACT*/
+.vector {
+  max-width: 30%;
+  display: block;
+  float: center;
+  margin: 10%;
+  padding: 5%;
+}
+
+
 /*GALLERY*/
 .gallery {
   height: 600px;
+  margin-left: 7%;
 }
 
 .gallery .item {
   background: none;
+  margin-bottom: 100px;
+}
+
+.controls {
+  max-height: 50%;
+  max-width: 50%;
+  display: flex;
+  flex: left;
+  padding: 2%;
+  margin-left: 15%;
+}
+
+.overview {
+  margin-top: 200px;
 }
