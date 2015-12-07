@@ -138,6 +138,30 @@ footer {
   padding: auto;
 }
 
+.resume {
+  display: block;
+  margin-left: 15%;
+  margin-right: 30%;
+  margin-bottom: 20%;
+  padding: auto;
+}
+
+.resume-2 {
+  display: block;
+  margin-left: 15%;
+  margin-right: 30%;
+  margin-bottom: 20%;
+  padding: auto;
+}
+
+.resume-3 {
+  display: block;
+  margin-left: 15%;
+  margin-right: 30%;
+  margin-bottom: 20%;
+  padding: auto;
+}
+
 footer {
   position: fixed;
   bottom: 0;
