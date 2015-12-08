@@ -24,9 +24,9 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 2em;
+    font-size:4em;
     text-align: center;
-    margin: 10% 0 10% 6%;
+    margin: 20% 0 10% 6%;
     padding: 1%;
 }
 
@@ -36,8 +36,8 @@
 }
 
 .gallery .controls a:hover {
-      color: white;
-      color: white;
+      color: black;
+      color: black;
 }
 
 
