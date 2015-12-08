@@ -274,13 +274,13 @@ footer {
     max-width: 30%;
   }
   
-    .vector {
-  margin-top: 8%;
-  margin-left: 25%;
-  margin-right: 30%;
-  margin-bottom: 5%;
-  max-height: 50%;
-  max-width: 50%;
+  .vector {
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    max-height: 30%;
+    max-width: 50%;
   }
 }
   
