@@ -135,11 +135,21 @@ footer {
   line-height: 1.5em;
 }
 
+.resume-welcome {
+  display: block;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  padding: auto;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+
 .resume {
   display: block;
   margin-left: 15%;
   margin-right: 35%;
-  margin-bottom: 20%;
+  margin-bottom: 7%;
 /*  padding: auto;  */
 }
 
@@ -147,7 +157,7 @@ footer {
   display: block;
   margin-left: 15%;
   margin-right: 30%;
-  margin-bottom: 20%;
+  margin-bottom: 7%;
   padding: auto;
 }
 
@@ -158,6 +168,16 @@ footer {
   margin-bottom: 20%;
   padding: auto;
 }
+
+/*
+.resume-hr {
+  width: 600px; 
+  height: 1.5px;
+  max-width: 100%;
+  background-color: black;
+  border: 0;
+}
+*/
 
 footer {
   position: fixed;
@@ -253,11 +273,18 @@ footer {
    margin-left: 10%;
   }
   
-  .welcome, .resume, .resume-2, .resume-3 {
+  .welcome, .resume-welcome, .resume, .resume-2, .resume-3 {
+    font-size: .8em;
     margin-left: 25%;
     margin-right: 10%;
+    margin-bottom: 15%;
+  }
+  
+  .resume-welcome {
+/*    font-size: .75em;*/
   }
 }
+
 
 
 @media screen and (max-width: 530px) {
