@@ -171,6 +171,12 @@ footer {
 }
 
 
+/*RESUME DOWNLOAD LINK*/
+.download {
+  max-height: 20px;
+  max-width: 20px;
+}
+
 /*CONTACT*/
 .vector {
   display: inline-flex;
