@@ -136,6 +136,8 @@ footer {
   margin-right: 10%;
   margin-bottom: 20%;
   padding: auto;
+  letter-spacing: 1px;
+  line-height: 1.5em;
 }
 
 .resume {
@@ -173,8 +175,9 @@ footer {
 
 /*RESUME DOWNLOAD LINK*/
 .download {
-  max-height: 20px;
-  max-width: 20px;
+  max-height: 16px;
+  max-width: 16px;
+  text-align: center;
 }
 
 /*CONTACT*/
