@@ -127,13 +127,13 @@ footer {
   border-radius: 100%;
   max-height: 35%;
   max-width: 35%;
-  margin: auto;
+  margin: auto; 
 }
 
 .welcome {
   display: block;
   margin-left: 10%;
-  margin-right: 30%;
+  margin-right: 10%;
   margin-bottom: 20%;
   padding: auto;
 }
@@ -141,9 +141,9 @@ footer {
 .resume {
   display: block;
   margin-left: 15%;
-  margin-right: 30%;
+  margin-right: 35%;
   margin-bottom: 20%;
-  padding: auto;
+/*  padding: auto;  */
 }
 
 .resume-2 {
@@ -183,13 +183,14 @@ footer {
 
 /*GALLERY*/
 .gallery {
-  height: 600px;
+  height: 60px;
   margin-left: 7%;
+  background: none;
 }
 
 .gallery .item {
   background: none;
-  margin-bottom: 100px;
+  margin-bottom: 5%;
 }
 
 .controls {
@@ -198,9 +199,51 @@ footer {
   display: flex;
   flex: left;
   padding: 2%;
-  margin-left: 15%;
+  margin: auto;
+  top: auto;
 }
 
 .overview {
   margin-top: 200px;
 }
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 630px) {
+
+  nav {
+    margin-left: -2%;
+  }
+  
+  h1, h2 {
+   margin-left: 10%;
+  }
+  
+  .welcome, .resume, .resume-2, .resume-3 {
+    margin-left: 25%;
+    margin-right: 10%;
+  }
+  
+}
+
+
+@media screen and (max-width: 530px) {
+
+  nav {
+    margin-left: -5%;
+    padding: -1%;
+  }
+  
+  .nav-hr {
+    max-width: 50%;
+    margin-left: -3%;
+  }
+  
+  .nav-logo {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    max-width: 30%;
+  }
+}
+  
