@@ -169,15 +169,6 @@ footer {
   padding: auto;
 }
 
-/*
-.resume-hr {
-  width: 600px; 
-  height: 1.5px;
-  max-width: 100%;
-  background-color: black;
-  border: 0;
-}
-*/
 
 footer {
   position: fixed;
@@ -209,23 +200,24 @@ footer {
 /*GALLERY*/
 
 
-/*
 .gallery .item {
   margin-bottom: 15%;
 }
-*/
 
 .controls {
   max-height: 100%;
   max-width: 100%;
   display: flex;
   float: left;
-  margin-top: 20%;
-  padding-top: 30%;
+/*
+  margin-top: 2%;
+  padding-top: 3%;
+*/
+  margin-left: 7%;
+  margin-bottom: 5%;
 }
 
 .control-operator {
-  color: bisque;
   z-index: 2;
   height: 50%;
   width: 50%;
@@ -242,12 +234,13 @@ footer {
   width: 100%;
   margin-left: 7%;
   margin-top: 15%;
-  color: black;
 }
 
+/*
 .item, .overview {
   margin-top: 5%;
 }
+*/
 
 
 /* MEDIA QUERIES */
