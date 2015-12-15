@@ -231,6 +231,11 @@ footer {
 /*  max-height: 300px;*/
 }
 
+.last-line {
+  font-size: .75em;
+  margin-left: 7%;
+}
+
 
 /*
 .item, .overview {
