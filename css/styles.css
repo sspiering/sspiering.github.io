@@ -231,17 +231,16 @@ footer {
 /*  max-height: 300px;*/
 }
 
-iframe {
-  max-width: 250px;
-  margin-bottom: 2%;
-}
-
 
 /*
 .item, .overview {
   margin-top: 5%;
 }
 */
+
+iframe {
+  max-width: 500px;
+}
 
 
 /* MEDIA QUERIES */
@@ -308,5 +307,10 @@ iframe {
     max-height: 30%;
     max-width: 50%;
   }
+  
+  iframe {
+  min-width: 250px;
+  margin-bottom: 2%;
+}
 }
   
