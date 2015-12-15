@@ -231,6 +231,11 @@ footer {
 /*  max-height: 300px;*/
 }
 
+iframe {
+  max-width: 250px;
+  margin-bottom: 2%;
+}
+
 
 /*
 .item, .overview {
